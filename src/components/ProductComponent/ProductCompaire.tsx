@@ -3,7 +3,7 @@ import React from 'react'
 function ProductCompaire() {
     return (
         <div>
-            <section className="product-cart product product-compair footer-padding">
+            <section className="product-cart product product-compair footer-padding" data-aos="fade-up">
                 <div className="container">
                     <div className="cart-section">
                         <table>

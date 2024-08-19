@@ -1,5 +1,6 @@
 import React from 'react'
 import { modalAction, switchDashboard } from '../../functions/HelperFunctions'
+import { Link } from 'react-router-dom'
 
 function UserProfileCompo() {
     return (
@@ -138,7 +139,7 @@ function UserProfileCompo() {
                                     </span>
                                 </button>
                                 <div className="nav-link">
-                                    <a href="login.html">
+                                    <Link to={"/login"}>
                                         <span>
                                             <svg width={18} height={18} viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <g clipPath="url(#clip0_113_3043)">
@@ -155,7 +156,7 @@ function UserProfileCompo() {
                                         <span className="text">
                                             Logout
                                         </span>
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                             {/* nav-content */}
@@ -1012,15 +1013,15 @@ function UserProfileCompo() {
                                                             </span>
                                                         </div>
                                                         <div className="product-description">
-                                                            <a href="product-sidebar.html" className="product-details">Rainbow
+                                                            <Link to={"/productsidebar"} className="product-details">Rainbow
                                                                 Sequin Dress
-                                                            </a>
+                                                            </Link>
                                                             <p>Didn't I tell you not put your phone on charge because weekend?
                                                             </p>
                                                         </div>
                                                     </div>
                                                     <div className="product-cart-btn">
-                                                        <a href="cart.html" className="product-btn">Edit Review</a>
+                                                        <Link to={"/card"} className="product-btn">Edit Review</Link>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1045,15 +1046,15 @@ function UserProfileCompo() {
                                                             </span>
                                                         </div>
                                                         <div className="product-description">
-                                                            <a href="product-sidebar.html" className="product-details">Rainbow
+                                                            <Link to={"/productsidebar"} className="product-details">Rainbow
                                                                 Sequin Dress
-                                                            </a>
+                                                            </Link>
                                                             <p>Didn't I tell you not put your phone on charge because weekend?
                                                             </p>
                                                         </div>
                                                     </div>
                                                     <div className="product-cart-btn">
-                                                        <a href="cart.html" className="product-btn">Edit Review</a>
+                                                        <Link to={"/card"} className="product-btn">Edit Review</Link>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1078,15 +1079,15 @@ function UserProfileCompo() {
                                                             </span>
                                                         </div>
                                                         <div className="product-description">
-                                                            <a href="product-sidebar.html" className="product-details">Rainbow
+                                                            <Link to={"/productsidebar"} className="product-details">Rainbow
                                                                 Sequin Dress
-                                                            </a>
+                                                            </Link>
                                                             <p>Didn't I tell you not put your phone on charge because weekend?
                                                             </p>
                                                         </div>
                                                     </div>
                                                     <div className="product-cart-btn">
-                                                        <a href="cart.html" className="product-btn">Edit Review</a>
+                                                        <Link to={"/card"} className="product-btn">Edit Review</Link>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1450,7 +1451,6 @@ function UserProfileCompo() {
                     </div>
                 </div>
             </section>
-
         </div>
     )
 }

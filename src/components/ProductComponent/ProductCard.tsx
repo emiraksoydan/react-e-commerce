@@ -3,7 +3,7 @@ import React from 'react'
 function ProductCard() {
     return (
         <div>
-            <section className="product-cart product footer-padding">
+            <section className="product-cart product footer-padding " data-aos="fade-up">
                 <div className="container">
                     <div className="cart-section">
                         <table>

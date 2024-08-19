@@ -1,6 +1,5 @@
 import React from 'react'
-import Header from '../HeaderComponent/Header'
-import Footer from '../Footer'
+
 import { Link } from 'react-router-dom'
 
 function Login() {

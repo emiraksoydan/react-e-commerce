@@ -1,9 +1,9 @@
 import React from 'react'
-import HeaderSearch from '../HeaderSearch'
-import HeaderCompaire from '../HeaderCompaire'
-import HeaderFavorite from '../HeaderFavorite'
+import HeaderSearch from './HeaderSearch'
+import HeaderCompaire from './HeaderCompaire'
+import HeaderFavorite from './HeaderFavorite'
 import HeaderCart from './HeaderCart'
-import HeaderUser from '../HeaderUser'
+import HeaderUser from './HeaderUser'
 import { Link } from 'react-router-dom'
 
 function HeaderCenter() {

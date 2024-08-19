@@ -2,7 +2,7 @@ import React from 'react'
 import Header from '../components/HeaderComponent/Header'
 import BlogTittle from '../components/BlogComponent/BlogTittle'
 import Footer from '../components/Footer';
-import LatestProduct from '../components/ProductComponent/LatestProduct';
+import LatestProduct from '../components/LatestProduct';
 import AboutCompo from '../components/AboutComponent/AboutCompo';
 import AboutService from '../components/AboutComponent/AboutService';
 import AboutPromotion from '../components/AboutComponent/AboutPromotion';
