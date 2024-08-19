@@ -1,11 +1,11 @@
 import React from 'react'
 
-function ProductCard() {
+function WishlistCompo() {
     return (
         <div>
-            <section className="product-cart product footer-padding">
+            <section className="cart product wishlist footer-padding" data-aos="fade-up">
                 <div className="container">
-                    <div className="cart-section">
+                    <div className="cart-section wishlist-section">
                         <table>
                             <tbody>
                                 <tr className="table-row table-top-row">
@@ -15,16 +15,6 @@ function ProductCard() {
                                     <td className="table-wrapper">
                                         <div className="table-wrapper-center">
                                             <h5 className="table-heading">PRICE</h5>
-                                        </div>
-                                    </td>
-                                    <td className="table-wrapper">
-                                        <div className="table-wrapper-center">
-                                            <h5 className="table-heading">QUANTITY</h5>
-                                        </div>
-                                    </td>
-                                    <td className="table-wrapper wrapper-total">
-                                        <div className="table-wrapper-center">
-                                            <h5 className="table-heading">TOTAL</h5>
                                         </div>
                                     </td>
                                     <td className="table-wrapper">
@@ -46,25 +36,7 @@ function ProductCard() {
                                     </td>
                                     <td className="table-wrapper">
                                         <div className="table-wrapper-center">
-                                            <h5 className="heading">$10.00</h5>
-                                        </div>
-                                    </td>
-                                    <td className="table-wrapper">
-                                        <div className="table-wrapper-center">
-                                            <div className="quantity">
-                                                <span className="minus">
-                                                    -
-                                                </span>
-                                                <span className="number">1</span>
-                                                <span className="plus">
-                                                    +
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td className="table-wrapper wrapper-total">
-                                        <div className="table-wrapper-center">
-                                            <h5 className="heading">$60.00</h5>
+                                            <h5 className="heading">$20.00</h5>
                                         </div>
                                     </td>
                                     <td className="table-wrapper">
@@ -84,31 +56,13 @@ function ProductCard() {
                                                 <img src="./assets/images/homepage-one/product-img/product-img-2.webp" alt="img" />
                                             </div>
                                             <div className="wrapper-content">
-                                                <h5 className="heading"> black Shirt</h5>
+                                                <h5 className="heading">Classic Oxford Shirt</h5>
                                             </div>
                                         </div>
                                     </td>
                                     <td className="table-wrapper">
                                         <div className="table-wrapper-center">
-                                            <h5 className="heading">$05.00</h5>
-                                        </div>
-                                    </td>
-                                    <td className="table-wrapper">
-                                        <div className="table-wrapper-center">
-                                            <div className="quantity">
-                                                <span className="minus">
-                                                    -
-                                                </span>
-                                                <span className="number">1</span>
-                                                <span className="plus">
-                                                    +
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td className="table-wrapper wrapper-total">
-                                        <div className="table-wrapper-center">
-                                            <h5 className="heading">$10.00</h5>
+                                            <h5 className="heading">$20.00</h5>
                                         </div>
                                     </td>
                                     <td className="table-wrapper ">
@@ -128,31 +82,13 @@ function ProductCard() {
                                                 <img src="./assets/images/homepage-one/product-img/product-img-3.webp" alt="img" />
                                             </div>
                                             <div className="wrapper-content">
-                                                <h5 className="heading">Blue Party Shirt</h5>
+                                                <h5 className="heading">Classic Oxford Shirt</h5>
                                             </div>
                                         </div>
                                     </td>
                                     <td className="table-wrapper">
                                         <div className="table-wrapper-center">
-                                            <h5 className="heading">$30.00</h5>
-                                        </div>
-                                    </td>
-                                    <td className="table-wrapper">
-                                        <div className="table-wrapper-center">
-                                            <div className="quantity">
-                                                <span className="minus">
-                                                    -
-                                                </span>
-                                                <span className="number">1</span>
-                                                <span className="plus">
-                                                    +
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td className="table-wrapper wrapper-total">
-                                        <div className="table-wrapper-center">
-                                            <h5 className="heading">$50.00</h5>
+                                            <h5 className="heading">$20.00</h5>
                                         </div>
                                     </td>
                                     <td className="table-wrapper">
@@ -172,31 +108,13 @@ function ProductCard() {
                                                 <img src="./assets/images/homepage-one/product-img/product-img-4.webp" alt="img" />
                                             </div>
                                             <div className="wrapper-content">
-                                                <h5 className="heading">Red Party Dress</h5>
+                                                <h5 className="heading">Classic Oxford Shirt</h5>
                                             </div>
                                         </div>
                                     </td>
                                     <td className="table-wrapper">
                                         <div className="table-wrapper-center">
                                             <h5 className="heading">$20.00</h5>
-                                        </div>
-                                    </td>
-                                    <td className="table-wrapper">
-                                        <div className="table-wrapper-center">
-                                            <div className="quantity">
-                                                <span className="minus">
-                                                    -
-                                                </span>
-                                                <span className="number">1</span>
-                                                <span className="plus">
-                                                    +
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td className="table-wrapper wrapper-total">
-                                        <div className="table-wrapper-center">
-                                            <h5 className="heading">$40.00</h5>
                                         </div>
                                     </td>
                                     <td className="table-wrapper">
@@ -212,14 +130,15 @@ function ProductCard() {
                             </tbody>
                         </table>
                     </div>
-                    <div className="wishlist-btn cart-btn">
-                        <a href="empty-cart.html" className="clean-btn">Clear Cart</a>
-                        <a href="#" className="shop-btn update-btn">Update Cart</a>
-                        <a href="checkout.html" className="shop-btn">Proceed to Checkout</a>
+                    <div className="wishlist-btn">
+                        <a href="empty-wishlist.html" className="clean-btn">Clean Wishlist</a>
+                        <a href="#" className="shop-btn">View Cards</a>
                     </div>
                 </div>
             </section>
+
         </div>
     )
 }
-export default ProductCard
+
+export default WishlistCompo

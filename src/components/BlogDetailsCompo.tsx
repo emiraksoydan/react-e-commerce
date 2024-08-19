@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function BlogDetailsCompo() {
     return (
@@ -37,9 +38,9 @@ function BlogDetailsCompo() {
                                                 </span>
                                             </div>
                                         </div>
-                                        <a href="blogs.html" className="about-details wrapper-details blog-details-heading">Business-to-consumer that
+                                        <Link to={"/blogs"} className="about-details wrapper-details blog-details-heading">Business-to-consumer that
                                             involves selling fight into the find to a products and services ship and cargo plane
-                                        </a>
+                                        </Link>
                                         <div className="blog-details">
                                             <p>
                                                 Id est maiorum volutpat, ad nominavi suscipit suscipiantur vix. Ut ius veri
@@ -306,7 +307,6 @@ function BlogDetailsCompo() {
                     </div>
                 </div>
             </section>
-
         </div>
     )
 }

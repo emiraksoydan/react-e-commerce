@@ -92,7 +92,7 @@ function Footer() {
                                         <ul>
                                             <li><Link to={"/order"}>Track Order</Link></li>
                                             <li><Link to={"/card"}>Delivery</Link></li>
-                                            <li><a href="about.html">Warranty</a></li>
+                                            <li><Link to={"/about"}>Warranty</Link></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -104,10 +104,10 @@ function Footer() {
                                     </h4>
                                     <div className="footer-link about-link">
                                         <ul>
-                                            <li><a href="about.html">Rave’s Story</a></li>
-                                            <li><a href="about.html">Work With Us</a></li>
-                                            <li><a href="about.html">Coporate News</a></li>
-                                            <li><a href="about.html">Investors</a></li>
+                                            <li><Link to={"/about"}>Rave’s Story</Link></li>
+                                            <li><Link to={"/about"}>Work With Us</Link></li>
+                                            <li><Link to={"/about"}>Coporate News</Link></li>
+                                            <li><Link to={"/about"}>Investors</Link></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -119,10 +119,10 @@ function Footer() {
                                     </h4>
                                     <div className="footer-link useful-link">
                                         <ul>
-                                            <li><a href="about.html">Secure Payment</a></li>
+                                            <li><Link to={"/about"}>Secure Payment</Link></li>
                                             <li><a href="privacy.html">Privacy Policy</a></li>
                                             <li><a href="terms.html">Terms of Use</a></li>
-                                            <li><a href="product-sidebar.html">Archived Products</a></li>
+                                            <li><Link to={"/productsidebar"}>Archived Products</Link></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -184,7 +184,6 @@ function Footer() {
                     <hr />
                 </div>
             </section>
-
         </div>
     )
 }

@@ -20,3 +20,8 @@ export const tooglmenu = (): void => {
     empt.classList.toggle("active");
 }
 
+export const switchDashboard = (): void => {
+    const toggleBtn = document.querySelector(".switch-icon")!;
+    toggleBtn.classList.toggle("active");
+}
+
