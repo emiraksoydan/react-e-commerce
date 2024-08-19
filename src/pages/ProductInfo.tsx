@@ -1,9 +1,9 @@
 import React from 'react'
-import Header from '../components/Header'
+import Header from '../components/HeaderComponent/Header'
 import Footer from '../components/Footer'
-import ProductInfoCompo from '../components/ProductInfoCompo'
-import ProductDetail from '../components/ProductDetail'
-import ProductWeeklSale from '../components/ProductWeeklSale'
+import ProductInfoCompo from '../components/ProductComponent/ProductInfoCompo'
+import ProductDetail from '../components/ProductComponent/ProductDetail'
+import ProductWeeklSale from '../components/ProductComponent/ProductWeeklSale'
 
 function ProductInfo() {
     return (

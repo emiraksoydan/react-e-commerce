@@ -1,5 +1,5 @@
 import React from 'react'
-import { modalAction, switchDashboard } from '../functions/HelperFunctions'
+import { modalAction, switchDashboard } from '../../functions/HelperFunctions'
 
 function UserProfileCompo() {
     return (

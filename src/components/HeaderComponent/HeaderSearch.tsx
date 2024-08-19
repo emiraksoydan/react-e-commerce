@@ -1,5 +1,5 @@
 import React from 'react'
-import { modalAction } from '../functions/HelperFunctions';
+import { modalAction } from '../../functions/HelperFunctions';
 
 
 function HeaderSearch() {

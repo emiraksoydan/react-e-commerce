@@ -2,17 +2,17 @@ import React from 'react'
 import Header from '../components/HeaderComponent/Header'
 import BlogTittle from '../components/BlogComponent/BlogTittle'
 import Footer from '../components/Footer'
-import ContactCompo from '../components/ContactCompo'
+import ProductSellers from '../components/ProductComponent/ProductSellers'
 
-function ContactUs() {
+function Sellers() {
     return (
         <div>
             <Header></Header>
-            <BlogTittle headingtitle={'Contact'} blogbradcumtitle={'Contact'}></BlogTittle>
-            <ContactCompo></ContactCompo>
+            <BlogTittle headingtitle={'Sellers'} blogbradcumtitle={'All Seller'}></BlogTittle>
+            <ProductSellers></ProductSellers>
             <Footer></Footer>
         </div>
     )
 }
 
-export default ContactUs
+export default Sellers

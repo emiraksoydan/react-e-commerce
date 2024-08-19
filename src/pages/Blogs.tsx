@@ -1,8 +1,8 @@
 import React from 'react'
-import Header from '../components/Header'
-import BlogTittle from '../components/BlogTittle'
+import Header from '../components/HeaderComponent/Header'
+import BlogTittle from '../components/BlogComponent/BlogTittle'
 import Footer from '../components/Footer'
-import LatestProduct from '../components/LatestProduct'
+import LatestProduct from '../components/ProductComponent/LatestProduct'
 
 function Blogs() {
     return (

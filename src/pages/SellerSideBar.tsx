@@ -1,16 +1,16 @@
 import React from 'react'
 import Header from '../components/HeaderComponent/Header'
-import BlogTittle from '../components/BlogComponent/BlogTittle'
 import Footer from '../components/Footer'
+import SellerSidebarCompo from '../components/SellerSidebarCompo'
 
-function Error() {
+function SellerSideBar() {
     return (
         <div>
             <Header></Header>
-            <BlogTittle headingtitle={'404 Not Found'} blogbradcumtitle={''}></BlogTittle>
+            <SellerSidebarCompo></SellerSidebarCompo>
             <Footer></Footer>
         </div>
     )
 }
 
-export default Error
+export default SellerSideBar

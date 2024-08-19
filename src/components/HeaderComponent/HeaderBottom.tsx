@@ -1,5 +1,5 @@
 import React from 'react'
-import { tooglmenu } from '../functions/HelperFunctions'
+import { tooglmenu } from '../../functions/HelperFunctions'
 import { Link } from 'react-router-dom'
 
 function HeaderBottom() {

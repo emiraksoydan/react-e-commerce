@@ -1,16 +1,16 @@
 import React from 'react'
 import Header from '../components/HeaderComponent/Header'
-import BlogTittle from '../components/BlogComponent/BlogTittle'
 import Footer from '../components/Footer'
+import ProductPrivacy from '../components/ProductComponent/ProductPrivacy'
 
-function Error() {
+function Terms() {
     return (
         <div>
             <Header></Header>
-            <BlogTittle headingtitle={'404 Not Found'} blogbradcumtitle={''}></BlogTittle>
+            <ProductPrivacy></ProductPrivacy>
             <Footer></Footer>
         </div>
     )
 }
 
-export default Error
+export default Terms

@@ -27,9 +27,18 @@ function BlogTittle({ headingtitle, blogbradcumtitle, backshop }: { headingtitle
                                     <img src="./assets/images/homepage-one/404-error.webp" alt="404-error" />
                                 </div>
                             </div>
-                                : <div className="blog-heading about-heading">
-                                    <h1 className="heading">{blogbradcumtitle}</h1>
+                                : location.pathname === "emptywishlist" ? <div className="blog-item" data-aos="fade-up">
+                                    <div className="cart-img">
+                                        <img src="./assets/images/homepage-one/empty-wishlist.webp" alt='' />
+                                    </div>
+                                    <div className="cart-content">
+                                        <p className="content-title">{blogbradcumtitle} </p>
+                                        <a href="product-sidebar.html" className="shop-btn">{backshop}</a>
+                                    </div>
                                 </div>
+                                    : <div className="blog-heading about-heading">
+                                        <h1 className="heading">{blogbradcumtitle}</h1>
+                                    </div>
                     }
                 </div>
             </section>

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { modalAction } from '../functions/HelperFunctions'
+import { modalAction } from '../../functions/HelperFunctions'
 
 function ProductInfoCompo() {
     return (

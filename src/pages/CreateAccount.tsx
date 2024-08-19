@@ -1,7 +1,7 @@
 import React from 'react'
-import Header from '../components/Header'
+import Header from '../components/HeaderComponent/Header'
 import Footer from '../components/Footer'
-import Register from '../components/Register'
+import Register from '../components/AuthComponent/Register'
 
 function CreateAccount() {
     return (

@@ -1,7 +1,7 @@
 import React from 'react'
-import Header from '../components/Header'
+import Header from '../components/HeaderComponent/Header'
 import Footer from '../components/Footer'
-import BlogTittle from '../components/BlogTittle'
+import BlogTittle from '../components/BlogComponent/BlogTittle'
 
 function EmptyCart() {
     return (

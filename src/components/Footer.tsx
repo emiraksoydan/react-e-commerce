@@ -120,8 +120,8 @@ function Footer() {
                                     <div className="footer-link useful-link">
                                         <ul>
                                             <li><Link to={"/about"}>Secure Payment</Link></li>
-                                            <li><a href="privacy.html">Privacy Policy</a></li>
-                                            <li><a href="terms.html">Terms of Use</a></li>
+                                            <li><Link to={"/privacy"}>Privacy Policy</Link></li>
+                                            <li><Link to={"/terms"}>Terms of Use</Link></li>
                                             <li><Link to={"/productsidebar"}>Archived Products</Link></li>
                                         </ul>
                                     </div>

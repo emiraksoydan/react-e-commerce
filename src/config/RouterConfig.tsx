@@ -19,6 +19,12 @@ import ProductInfo from '../pages/ProductInfo.tsx'
 import CreateAccount from '../pages/CreateAccount.tsx'
 import LoginPage from '../pages/LoginPage.tsx'
 import Error from '../pages/Faq.tsx'
+import EmptyWishlist from '../pages/EmptyWishlist.tsx'
+import FlashSale from '../pages/FlashSale.tsx'
+import Sellers from '../pages/Sellers.tsx'
+import SellerSideBar from '../pages/SellerSideBar.tsx'
+import Privacy from '../pages/Privacy.tsx'
+import Terms from '../pages/Terms.tsx'
 
 function RouterConfig() {
     return (
@@ -44,6 +50,14 @@ function RouterConfig() {
                     <Route path='/register' element={<CreateAccount />}></Route>
                     <Route path='/login' element={<LoginPage />}></Route>
                     <Route path='/error' element={<Error />}></Route>
+                    <Route path='/emptywishlist' element={<EmptyWishlist />}></Route>
+                    <Route path='/flashsale' element={<FlashSale />}></Route>
+                    <Route path='/sellers' element={<Sellers />}></Route>
+                    <Route path='/sellersidebar' element={<SellerSideBar />}></Route>
+                    <Route path='/privacy' element={<Privacy />}></Route>
+                    <Route path='/terms' element={<Terms />}></Route>
+
+
                 </Routes>
             </div>
         </>

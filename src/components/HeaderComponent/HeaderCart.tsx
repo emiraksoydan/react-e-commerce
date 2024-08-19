@@ -2,8 +2,6 @@ import React, { useEffect } from 'react'
 import { Link, useNavigate } from 'react-router-dom';
 
 function HeaderCart() {
-
-
     return (
         <div className="header-cart">
             <Link to={"/card"} className="cart-item">
@@ -106,8 +104,8 @@ function HeaderCart() {
                         <h5 className="wrapper-title">$60</h5>
                     </div>
                     <div className="cart-btn">
-                        <a href="cart.html" className="shop-btn view-btn">View Cart</a>
-                        <a href="checkout.html" className="shop-btn checkout-btn">Checkout Now</a>
+                        <Link to={"/card"} className="shop-btn view-btn">View Cart</Link>
+                        <Link to={"/checkout"} className="shop-btn checkout-btn">Checkout Now</Link>
                     </div>
                 </div>
             </div>
