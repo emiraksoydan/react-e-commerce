@@ -1,6 +1,4 @@
-import { AsyncThunk, createAsyncThunk } from "@reduxjs/toolkit/react";
 import axios from "axios";
-import { ApiParams } from "../modals/apiParams";
 
 
 

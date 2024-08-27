@@ -1,3 +1,4 @@
+import { TextField } from "@mui/material";
 
 
 
@@ -11,7 +12,6 @@ export const modalAction = (element: string): void => {
     }
 }
 
-
 export const tooglmenu = (): void => {
     let submenu = document.getElementById("subMenu")!;
     let empt = document.querySelector(".empty")!;
@@ -23,5 +23,16 @@ export const tooglmenu = (): void => {
 export const switchDashboard = (): void => {
     const toggleBtn = document.querySelector(".switch-icon")!;
     toggleBtn.classList.toggle("active");
+}
+
+
+export const setTextField = (): React.JSX.Element => {
+    return (
+        <>
+            <TextField>
+
+            </TextField>
+        </>
+    );
 }
 
