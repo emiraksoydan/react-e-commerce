@@ -1,8 +1,22 @@
 import React from 'react'
 import { tooglmenu } from '../../functions/HelperFunctions'
 import { Link } from 'react-router-dom'
+import { useGetAllCategoriesQuery } from '../../redux/slices/generalApi';
+
+import { memo } from 'react'
 
 function HeaderBottom() {
+
+    const { data: categories, error, isLoading } = useGetAllCategoriesQuery();
+    console.log(categories?.data);
+    if (error) {
+        console.log("buradayım");
+    }
+    if (isLoading) {
+        console.log("loading");
+
+    }
+
     return (
         <div className="header-bottom d-lg-block d-none">
             <div className="container">

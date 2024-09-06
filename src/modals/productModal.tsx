@@ -6,6 +6,4 @@ export interface ProductModal {
     Name: string,
     Price: number,
     Description: string,
-
-
 }

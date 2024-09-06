@@ -2,6 +2,8 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 function ProductCategory() {
+    console.log("sadasdas")
+
     return (
         <div>
             <section className="product-category">

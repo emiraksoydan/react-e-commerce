@@ -31,6 +31,8 @@ function Login() {
 
     return (
         <div>
+            <button>GetAllCategories</button>
+
             <section className="login footer-padding">
                 <div className="container">
                     <div className="login-section">

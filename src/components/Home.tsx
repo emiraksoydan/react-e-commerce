@@ -11,8 +11,19 @@ import ProductBestSeller from './ProductComponent/ProductBestSeller'
 import ProductWeeklSale from './ProductComponent/ProductWeeklSale'
 import Footer from './Footer'
 import ProductBest from './ProductComponent/ProductBest'
+import { useGetAllCategoriesQuery } from '../redux/slices/generalApi'
+import { CategoryModal } from '../modals/categoryModal'
+
+
+
+
 
 function Home() {
+
+
+
+
+
   return (
     <div>
       <Header></Header>

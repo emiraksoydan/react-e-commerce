@@ -5,5 +5,5 @@ export interface RegisterModal {
     surname: string,
     phone: string,
     password: string,
-    term: false,
+    term: boolean,
 }

@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 function HeaderTop() {
+
     return (
         <div className="header-top-section">
             <div className="container">
